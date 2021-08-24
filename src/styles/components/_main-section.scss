@@ -11,8 +11,24 @@
 
 .main-section__image {
 	width: 55%;
+
+	@media only screen and (min-width: 768px) and (max-width: 991px) {
+		width: 60%;
+	}
+
+	@media only screen and (max-width: 765px) {
+		width: 66%;
+		margin-top: 2rem;
+	}
 }
 
 .main-section__icon {
 	font-size: 1rem;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.main-section__button {
+		width: 65%;
+		margin: 0.8rem 0px 0px 15% !important;
+	}
 }

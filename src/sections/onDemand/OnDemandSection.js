@@ -5,9 +5,9 @@ export const OnDemandSection = () => {
         <section className="ondemand__section-content pt-content pb-content mt-content mb-content">
             <div className="container">
                 <div className="row">
-                    <div className="col-lg-6 d-flex align-items-center justify-content-center">
+                    <div className="col-lg-6 col-md-6 d-flex align-items-center justify-content-center">
                         <article>
-                            <h1 className="ondemand__title-h1 text-center fw-300">Salario on-demand</h1>
+                            <h1 className="ondemand__title-h1 text-center">Salario on-demand</h1>
                             <p className="text-center ondemand__text fw-500">¡Tu libertad financiera en una app! </p>
                             <p className="text-center ondemand__text">Tener PagoDiario en tu celular te permite disponer de tu nómina de forma inmediata.</p>
                             <div className="d-flex align-items-center justify-content-center">
@@ -15,7 +15,7 @@ export const OnDemandSection = () => {
                             </div>
                         </article>
                     </div>
-                    <div className="col-lg-6 d-flex align-items-center justify-content-center">
+                    <div className="col-lg-6 col-md-6 d-flex align-items-center justify-content-center">
                         <div className="card ondemand__card">
                             <div className="card-body">
                                 <div>

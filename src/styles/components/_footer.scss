@@ -32,6 +32,11 @@
 .footer__icon {
 	font-size: 1.5rem;
 	margin-right: 0.8rem;
+	color: $black;
+
+	&:hover {
+		color: $black;
+	}
 }
 
 .footer__espacio-text {
@@ -40,8 +45,61 @@
 
 .footer__img-shop {
 	width: 95%;
+	@media (max-width: 768px) {
+		width: 75%;
+	}
+}
+
+.footer__pb-footer {
+	padding-bottom: 30px;
+}
+
+.footer__pl5 {
+	padding-left: 5%;
 }
 
 .footer__pl10 {
 	padding-left: 10%;
+
+	@media only screen and (max-width: 768px) {
+		padding-left: 0%;
+	}
+}
+
+.footer__link-shop-1 {
+	position: absolute;
+	width: 113px;
+	height: 36px;
+	top: 0%;
+}
+
+.footer__link-shop-2 {
+	position: absolute;
+	width: 113px;
+	height: 36px;
+	top: 0%;
+	right: 4%;
+}
+
+.footer__link {
+	color: $black;
+
+	&:focus {
+		color: $black;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.footer__pl-md {
+		padding-left: 5%;
+	}
+}
+
+@media only screen and (max-width: 765px) {
+	.footer__row {
+		padding-left: 2%;
+	}
+	.footer__pt-sm {
+		padding-top: 7%;
+	}
 }
