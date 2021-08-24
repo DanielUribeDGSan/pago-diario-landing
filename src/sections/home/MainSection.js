@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export const MainSection = () => {
     return (
-        <section className="main-section__section-content pt-content pb-content">
+        <section className="main-section__section-content pt-content pb-content mt-content mb-content">
             <div className="container">
                 <div className="row">
                     <div className="col-lg-6 d-flex align-items-center justify-content-center">

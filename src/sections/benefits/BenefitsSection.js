@@ -1,4 +1,5 @@
 import React from 'react'
+import { Slider } from '../../components/slider/Slider'
 
 export const BenefitsSection = () => {
     return (
@@ -11,7 +12,8 @@ export const BenefitsSection = () => {
                             <p className="text-center benefits__text fw-500">Conoce y accede a los beneficios mensuales que<br />Club PagoDiario tiene para</p>
                         </article>
                     </div>
-                    <div className="col-lg-6 d-flex align-items-center justify-content-center">
+                    <div className="col-12 d-flex align-items-center justify-content-center">
+                        <Slider />
                     </div>
                 </div>
             </div>

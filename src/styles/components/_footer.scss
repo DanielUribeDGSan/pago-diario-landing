@@ -1,0 +1,47 @@
+.footer__logo {
+	max-width: 100%;
+	width: 13rem;
+	margin-top: 1rem;
+}
+
+.footer__text {
+	color: $text-color;
+	font-size: 0.9rem;
+	margin: 1.2rem 0px;
+}
+.footer__text-link {
+	color: $text-color;
+	font-size: 0.9rem;
+	cursor: pointer;
+
+	&:hover {
+		color: $text-color;
+	}
+}
+.footer__text-icon {
+	color: $text-color;
+	font-size: 0.9rem;
+	margin: 0rem 0px 1.2rem 0px;
+}
+.footer__title {
+	color: $text-color;
+	font-size: 0.9rem;
+	margin: 0rem 0px 1.2rem 0px;
+}
+
+.footer__icon {
+	font-size: 1.5rem;
+	margin-right: 0.8rem;
+}
+
+.footer__espacio-text {
+	margin-top: 1rem;
+}
+
+.footer__img-shop {
+	width: 95%;
+}
+
+.footer__pl10 {
+	padding-left: 10%;
+}

@@ -1,9 +1,11 @@
 .ondemand__section-content {
 	background-color: $background-light;
 }
+
 .ondemand__title-h1 {
 	color: $title-color;
 }
+
 .ondemand__text {
 	color: $text-color;
 	margin: 0.8rem 0rem 2rem 0rem;
@@ -14,6 +16,13 @@
 	box-shadow: $shadow;
 	min-width: 30rem;
 	min-height: 20rem;
+	@media (max-width: 760px) {
+		min-width: 100%;
+	}
+}
+
+.ondemand__text-card {
+	min-height: 2.5rem;
 }
 
 .ondemand__icon {

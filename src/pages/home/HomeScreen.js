@@ -1,4 +1,5 @@
 import React from 'react'
+import { Footer } from '../../components/footer/Footer'
 import { Header } from '../../components/header/Header'
 import { BenefitsSection } from '../../sections/benefits/BenefitsSection'
 import { MainSection } from '../../sections/home/MainSection'
@@ -14,6 +15,7 @@ export const HomeScreen = () => {
                 <OnDemandSection />
                 <BenefitsSection />
             </main>
+            <Footer />
         </div>
     )
 }

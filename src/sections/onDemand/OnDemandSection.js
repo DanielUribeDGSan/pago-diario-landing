@@ -20,22 +20,22 @@ export const OnDemandSection = () => {
                             <div className="card-body">
                                 <div>
                                     <img src="./assets/images/ondemand/phone.svg" className="ondemand__icon" alt="phone" />
-                                    <p className="fw-200">Accede a tu nómina ya trabajada desde tu celular 24/7.</p>
+                                    <p className="fw-200 ondemand__text-card">Accede a tu nómina ya trabajada desde tu celular 24/7.</p>
                                     <hr />
                                 </div>
                                 <div className="mt-4">
                                     <img src="./assets/images/ondemand/retirar.svg" className="ondemand__icon" alt="phone" />
-                                    <p className="fw-200">Tus retiros no son créditos ni préstamos, no generan intereses ni recargos.</p>
+                                    <p className="fw-200 ondemand__text-card">Tus retiros no son créditos ni préstamos, no generan intereses ni recargos.</p>
                                     <hr />
                                 </div>
                                 <div className="mt-4">
                                     <img src="./assets/images/ondemand/etiqueta-del-precio.svg" className="ondemand__icon" alt="phone" />
-                                    <p className="fw-200">Paga una comisión fija sin preocuparte de la cantidad que retires.</p>
+                                    <p className="fw-200 ondemand__text-card">Paga una comisión fija sin preocuparte de la cantidad que retires.</p>
                                     <hr />
                                 </div>
                                 <div className="mt-4">
                                     <img src="./assets/images/ondemand/archivo.svg" className="ondemand__icon" alt="phone" />
-                                    <p className="fw-200">Disfruta PagoDiario sin llenar ninguna solicitud. Solo necesitas descargar la app y registrarte.</p>
+                                    <p className="fw-200 ondemand__text-card">Disfruta PagoDiario sin llenar ninguna solicitud. Solo necesitas descargar la app y registrarte.</p>
                                 </div>
                             </div>
                         </div>
