@@ -1,0 +1,24 @@
+.ondemand__section-content {
+	background-color: $background-light;
+}
+.ondemand__title-h1 {
+	color: $title-color;
+}
+.ondemand__text {
+	color: $text-color;
+	margin: 0.8rem 0rem 2rem 0rem;
+}
+
+.ondemand__card {
+	border: 0px;
+	box-shadow: $shadow;
+	min-width: 30rem;
+	min-height: 20rem;
+}
+
+.ondemand__icon {
+	width: 3rem;
+	height: 3rem;
+	float: left;
+	margin-right: 1rem;
+}
