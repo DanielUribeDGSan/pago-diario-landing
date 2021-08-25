@@ -8,8 +8,8 @@ export const BenefitsSection = () => {
                 <div className="row">
                     <div className="col-12 d-flex align-items-center justify-content-center">
                         <article>
-                            <h1 className="benefits__title-h1 text-center fw-300">Salario on-demand</h1>
-                            <p className="text-center benefits__text fw-500">Conoce y accede a los beneficios mensuales que<br />Club PagoDiario tiene para</p>
+                            <h1 className="benefits__title-h1 text-center fw-300" data-aos="fade-down" data-aos-duration="1000" data-aos-once="true">Explora tus beneficios</h1>
+                            <p className="text-center benefits__text fw-500" data-aos="fade-up" data-aos-duration="1100" data-aos-once="true">Conoce y accede a los beneficios mensuales que<br />Club PagoDiario tiene para ti</p>
                         </article>
                     </div>
                     <div className="col-12 d-flex align-items-center justify-content-center">

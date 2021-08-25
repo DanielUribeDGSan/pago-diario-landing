@@ -22,7 +22,7 @@ export const Slider = () => {
     const itemP = [20, 20, 20, 20];
 
     return (
-        <div className="slider__content">
+        <div className="slider__content" data-aos="fade-up" data-aos-duration="1400" data-aos-once="true">
             <Carousel breakPoints={breakPoints} pagination={false} renderArrow={myArrow} itemPadding={itemP}>
                 <div className="card slider__card">
                     <div className="card-body d-flex align-items-center justify-content-center">

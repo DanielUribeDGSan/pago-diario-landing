@@ -8,6 +8,7 @@
   <meta name="theme-color" content="#000000" />
   <meta name="description" content="Web site created using create-react-app" />
   <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+
   <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
@@ -23,12 +24,57 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
   <title>Pagodiario</title>
+  <style>
+    .preloader {
+      background-color: #fff;
+      bottom: 0;
+      left: 0;
+      position: fixed;
+      right: 0;
+      top: 0;
+      z-index: 2147483647;
+      width: 100%;
+      height: 100%;
+    }
 
+    .status {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .loading {
+      animation: loading 2s infinite;
+    }
+
+    @keyframes loading {
+      0% {
+        opacity: 0.4;
+      }
+
+      50% {
+        opacity: 1;
+      }
+
+      100% {
+        opacity: 0.4;
+      }
+    }
+  </style>
 </head>
 
 <body>
+
   <noscript>You need to enable JavaScript to run this app.</noscript>
-  <div id="root"></div>
+  <div id="root">
+    <div class="preloader">
+      <div class="status">
+        <img src="./assets/images/logo/logo-color.svg" class="lazyload loading" width="20%" />
+      </div>
+    </div>
+  </div>
+
   <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
@@ -39,6 +85,7 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+
 </body>
 
 </html>
