@@ -17,7 +17,7 @@ export const MainSection = () => {
                     <div className="col-lg-6 col-md-6 d-flex align-items-center justify-content-center">
                         <img
                             className='card-img main-section__image'
-                            src='./assets/images/home/1-1.png?v=123'
+                            src='./assets/images/home/1.png?v=123'
                             alt='pagodiario'
                         />
                     </div>

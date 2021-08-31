@@ -1,5 +1,7 @@
 .ondemand__section-content {
-	background-color: $background-light;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 }
 
 .ondemand__title-h1 {
@@ -9,6 +11,21 @@
 .ondemand__text {
 	color: $text-color;
 	margin: 0.8rem 0rem 2rem 0rem;
+}
+.ondemand__text-w80 {
+	width: 82%;
+
+	@media only screen and (max-width: 765px) {
+		width: 100%;
+	}
+}
+
+.ondemand__ml-28 {
+	margin-left: -28px;
+}
+
+.ondemand__pt-1 {
+	padding-top: 1rem;
 }
 
 .ondemand__card {

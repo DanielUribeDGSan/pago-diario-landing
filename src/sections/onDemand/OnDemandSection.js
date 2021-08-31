@@ -1,17 +1,22 @@
 import React from 'react'
 
 export const OnDemandSection = () => {
+
+    const background = {
+        backgroundImage: 'url(./assets/images/ondemand/2.png)',
+    };
+
     return (
-        <section className="ondemand__section-content pt-content pb-content mt-content mb-content">
+        <section className="ondemand__section-content pt-content pb-content mt-content mb-content" style={background}>
             <div className="container">
                 <div className="row">
                     <div className="col-lg-6 col-md-6 d-flex align-items-center justify-content-center">
                         <article >
-                            <h1 className="ondemand__title-h1 text-center" data-aos="fade-right" data-aos-duration="1000" data-aos-once="true">Salario on-demand</h1>
-                            <p className="text-center ondemand__text fw-500" data-aos="fade-right" data-aos-duration="1100" data-aos-once="true">¡Tu libertad financiera en una app! </p>
-                            <p className="text-center ondemand__text" data-aos="fade-right" data-aos-duration="1200" data-aos-once="true">Tener PagoDiario en tu celular te permite disponer de tu nómina de forma inmediata.</p>
-                            <div className="d-flex align-items-center justify-content-center" data-aos="fade-right" data-aos-duration="1300" data-aos-once="true">
-                                <a className="buttons__bt buttons__btn-primary-light mr-3">Conocer mas</a>
+                            <h1 className="ondemand__title-h1 text-white" data-aos="fade-right" data-aos-duration="1000" data-aos-once="true">Salario on-demand</h1>
+                            <p className="ondemand__text ondemand__pt-1 fw-500 text-white" data-aos="fade-right" data-aos-duration="1100" data-aos-once="true">¡Tu libertad financiera en una app! </p>
+                            <p className="ondemand__text ondemand__text-w80 text-white" data-aos="fade-right" data-aos-duration="1200" data-aos-once="true">Tener PagoDiario en tu celular te permite disponer de tu nómina de forma inmediata.</p>
+                            <div className="d-flex align-items-center " data-aos="fade-right" data-aos-duration="1300" data-aos-once="true">
+                                <a className="buttons__bt buttons__btn-primary-light mr-3 text-white ondemand__ml-28">Conocer mas</a>
                             </div>
                         </article>
                     </div>
