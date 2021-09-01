@@ -1,4 +1,4 @@
-.buttons__bt {
+.buttons__btn {
 	display: inline-block;
 	font-weight: 400;
 	text-align: center;
@@ -21,7 +21,7 @@
 .buttons__btn-primary {
 	background-color: $primary;
 	color: $white;
-	width: 180px;
+	min-width: 130px;
 
 	&:focus {
 		outline: none;

@@ -8,7 +8,7 @@ import { OnDemandSection } from '../../sections/onDemand/OnDemandSection'
 
 export const HomeScreen = () => {
     return (
-        <div>
+        <div className="main-wrapper main-wrapper-2">
             <Header />
             <main>
                 <MainSection />
