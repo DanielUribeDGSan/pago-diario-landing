@@ -50,6 +50,13 @@
 	background: linear-gradient(90deg, #184998 0%, #282559 100%);
 	clip-path: polygon(10% 0%, 100% 0%, 100% 100%, 0% 100%);
 	@media only screen and (max-width: 767px) {
-		clip-path: polygon(10% 0%, 100% 0%, 100% 100%, 0% 100%);
+		clip-path: none;
+		background: $background-transparent;
+		background-image: linear-gradient(
+			135deg,
+			$white 50%,
+			#184998 50%,
+			#282559 100%
+		);
 	}
 }

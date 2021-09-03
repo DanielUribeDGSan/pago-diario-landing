@@ -7,7 +7,7 @@ export const Footer = () => {
                 <div className="row footer__row">
                     <div className="col-lg-6 col-md-12 col-12">
                         <h6>SUSCRÍBETE A NUESTRA NEWSLETTER</h6>
-                        <p className="fw-200">Suscríbete para no perderte ningún contenido</p>
+                        <p className="fw-200 mt-2">Suscríbete para no perderte ningún contenido</p>
                     </div>
                     <div className="col-lg-6 col-md-12 col-12">
                         <p><small className="fw-200 footer__title-input">Escribe tu correo electrónico</small></p>
