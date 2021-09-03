@@ -1,44 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-@media only screen and (min-width: 1200px) {
-	.container {
-		max-width: 1200px;
-	}
-}
-
-.container-fluid {
-	width: 100%;
-	padding-right: 30px;
-	padding-left: 30px;
-	margin-right: auto;
-	margin-left: auto;
-}
-
-.container {
-	padding-left: 15px;
-	padding-right: 15px;
-}
-
-// .row {
-// 	margin-right: -15px;
-// 	margin-left: -15px;
-// }
-
-.row.gx-0 {
-	margin-right: 0px;
-	margin-left: 0px;
-}
-
-.row > * {
-	padding-right: 15px;
-	padding-left: 15px;
-}
-
-.row.gx-0 > * {
-	padding-right: 0px;
-	padding-left: 0px;
-}
-
 :root {
 	scroll-behavior: unset;
 }
@@ -80,45 +41,64 @@ body {
 	background-color: $background;
 }
 
-.fw-100 {
-	font-weight: 100;
-}
-
-.fw-200 {
-	font-weight: 200;
-}
-
-.fw-300 {
-	font-weight: 300;
-}
-
-.fw-400 {
-	font-weight: 400;
-}
-
-.fw-400 {
-	font-weight: 400;
-}
-
-.fw-500 {
-	font-weight: 500;
-}
-
-.fw-600 {
-	font-weight: 600;
-}
-
-.fw-700 {
-	font-weight: 700;
-}
-
 h1,
 h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+p {
 	color: $text-color;
+	margin: 0px;
+}
+
+h1,
+.h1 {
+	font-size: 2.1rem;
+
+	@media only screen and (max-width: 767px) {
+		font-size: 1.8rem;
+	}
+}
+
+h2,
+.h2 {
+	font-size: 2rem;
+	@media only screen and (max-width: 767px) {
+		font-size: 1.7rem;
+	}
+}
+
+h3,
+.h3 {
+	font-size: 1.75rem;
+	@media only screen and (max-width: 767px) {
+		font-size: 1.6rem;
+	}
+}
+
+h4,
+.h4 {
+	font-size: 1.5rem;
+	@media only screen and (max-width: 767px) {
+		font-size: 1.4rem;
+	}
+}
+
+h5,
+.h5 {
+	font-size: 1.25rem;
+	@media only screen and (max-width: 767px) {
+		font-size: 1.1rem;
+	}
+}
+
+h6,
+.h6 {
+	font-size: 1.25rem;
+	@media only screen and (max-width: 767px) {
+		font-size: 1rem;
+	}
 }
 
 ul {
@@ -132,7 +112,11 @@ button {
 	line-height: inherit;
 	text-decoration: none;
 	cursor: pointer;
-	color: #000000;
+	color: $text-color;
+}
+
+img {
+	max-width: 100%;
 }
 
 a,
@@ -185,6 +169,94 @@ textarea {
 	width: 100%;
 	font-size: 14px;
 }
+
+@media only screen and (min-width: 1200px) {
+	.container {
+		max-width: 1200px;
+	}
+}
+
+.container-fluid {
+	width: 100%;
+	padding-right: 30px;
+	padding-left: 30px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.container {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.row.gx-0 {
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+.row > * {
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.row.gx-0 > * {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+.card {
+	border: 0px;
+	box-shadow: $shadow;
+	min-width: 100%;
+	min-height: 15rem;
+	margin: 1rem 0rem;
+	width: 100%;
+	min-height: 15rem;
+}
+
+// Utilidades
+.min-h100vh {
+	min-height: 100vh;
+	@media only screen and (max-width: 991px) {
+		min-height: 50vh;
+	}
+}
+
+// Fuentes
+
+.fw-100 {
+	font-weight: 100;
+}
+
+.fw-200 {
+	font-weight: 200;
+}
+
+.fw-300 {
+	font-weight: 300;
+}
+
+.fw-400 {
+	font-weight: 400;
+}
+
+.fw-400 {
+	font-weight: 400;
+}
+
+.fw-500 {
+	font-weight: 500;
+}
+
+.fw-600 {
+	font-weight: 600;
+}
+
+.fw-700 {
+	font-weight: 700;
+}
+
+// Margenes y padding
 
 .mt-60 {
 	margin-top: 60px;
@@ -327,6 +399,13 @@ textarea {
 	padding-top: 30px;
 }
 
+.pt-75 {
+	padding-top: 75px;
+	@media only screen and (max-width: 767px) {
+		padding-top: 45px;
+	}
+}
+
 .pt-90 {
 	padding-top: 90px;
 	@media only screen and (max-width: 767px) {
@@ -352,6 +431,8 @@ textarea {
 	padding-top: 145px;
 }
 
+// Ocultar y mostrar
+
 @media (min-width: 992px) {
 	.d-lg-block {
 		display: flex !important;
@@ -360,6 +441,12 @@ textarea {
 
 @media only screen and (max-width: 991px) {
 	.d-none {
+		display: none !important;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.d-none-mv {
 		display: none !important;
 	}
 }

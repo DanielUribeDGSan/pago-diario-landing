@@ -1,0 +1,21 @@
+.como-funciona__section-content {
+	background: $background-transparent;
+}
+
+.como-funciona__title {
+	color: $title-color;
+	margin-bottom: 2rem;
+}
+
+.como-funciona__content-col {
+	width: 100%;
+	padding: 0rem 1rem;
+}
+
+.como-funciona__list li {
+	list-style: auto;
+	font-size: 0.9rem;
+	line-height: 2rem;
+	font-weight: 200;
+	margin-left: 1rem;
+}

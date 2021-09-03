@@ -1,6 +1,6 @@
 import React from 'react'
 import Carousel, { consts } from "react-elastic-carousel";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 
 export const Slider = () => {
     const breakPoints = [

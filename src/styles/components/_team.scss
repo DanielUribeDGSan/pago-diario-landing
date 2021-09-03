@@ -1,0 +1,24 @@
+.team__section-content {
+	background: $background-transparent;
+}
+
+.team__title {
+	color: $title-color;
+}
+
+.team__sub-title {
+	color: $text-dark-blue;
+	margin-top: 4rem;
+}
+
+.team__photos-content {
+	margin-top: 3rem;
+}
+
+.team__content-img {
+	width: 100%;
+	height: 300px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}

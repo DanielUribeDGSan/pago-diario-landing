@@ -1,19 +1,26 @@
 .main-section__section-content {
 	background-color: $background-transparent;
+	@media only screen and (max-width: 765px) {
+		padding-top: 1.5rem;
+	}
 }
 .main-section__title-h1 {
 	color: $title-color;
 }
 .main-section__text {
 	color: $text-color;
-	margin: 0.8rem 0rem 2rem 0rem;
+}
+.main-section__text-2 {
+	color: $text-color2;
+	font-size: 1.1rem;
 }
 
 .main-section__image {
-	width: 55%;
+	width: 50%;
+	margin-right: -6%;
 
 	@media only screen and (min-width: 768px) and (max-width: 991px) {
-		width: 60%;
+		width: 85%;
 	}
 
 	@media only screen and (max-width: 765px) {
@@ -22,13 +29,27 @@
 	}
 }
 
+.main-section__image2 {
+	width: 43%;
+	margin-top: -27%;
+
+	@media only screen and (max-width: 991px) {
+		display: none;
+	}
+}
+
 .main-section__icon {
 	font-size: 1rem;
 }
 
-@media only screen and (max-width: 991px) {
-	.main-section__button {
-		width: 65%;
-		margin: 0.8rem 0px 0px 15% !important;
+.main-section__espacio-text {
+	margin-top: 1.5rem;
+}
+
+.main-section__bg {
+	background: linear-gradient(90deg, #184998 0%, #282559 100%);
+	clip-path: polygon(10% 0%, 100% 0%, 100% 100%, 0% 100%);
+	@media only screen and (max-width: 767px) {
+		clip-path: polygon(10% 0%, 100% 0%, 100% 100%, 0% 100%);
 	}
 }

@@ -2,11 +2,29 @@
 	background-color: $background-transparent;
 }
 
-.benefits__title-h1 {
+.benefits__title {
 	color: $title-color;
+}
+
+.benefits__title-card {
+	color: $text-dark-blue;
 }
 
 .benefits__text {
 	color: $text-color;
-	margin: 1rem 0rem 2rem 0rem;
+}
+
+.benefits__list {
+	padding: 1rem 2rem;
+}
+
+.benefits__list li {
+	list-style: initial;
+	font-size: 0.9rem;
+	line-height: 1.6rem;
+	font-weight: 200;
+}
+
+.benefits__card-body {
+	height: 22rem;
 }

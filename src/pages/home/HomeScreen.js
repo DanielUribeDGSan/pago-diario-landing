@@ -1,9 +1,14 @@
 import React from 'react'
+import { BannerTypeOne } from '../../components/banner/BannerTypeOne'
+import { BannerTypeTwo } from '../../components/banner/BannerTypeTwo'
 import { Footer } from '../../components/footer/Footer'
 import { Header } from '../../components/header/Header'
 import { BenefitsSection } from '../../sections/benefits/BenefitsSection'
-import { MainSection } from '../../sections/home/MainSection'
-import { OnDemandSection } from '../../sections/onDemand/OnDemandSection'
+import { ComoFunciona } from '../../sections/ComoFunciona/ComoFunciona'
+import { CompanySection } from '../../sections/company/CompanySection'
+import { MainSection } from '../../sections/MainSection/MainSection'
+import { TeamSection } from '../../sections/team/TeamSection'
+
 
 
 export const HomeScreen = () => {
@@ -12,8 +17,12 @@ export const HomeScreen = () => {
             <Header />
             <main>
                 <MainSection />
-                <OnDemandSection />
+                <BannerTypeOne title="Ahorra hasta 3 millones de pesos anuales en rotación" description="Disminuye el estrés financiero de tus colaboradores" />
                 <BenefitsSection />
+                <ComoFunciona />
+                <CompanySection />
+                <BannerTypeTwo />
+                <TeamSection />
             </main>
             <Footer />
         </div>
