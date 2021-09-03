@@ -1,0 +1,17 @@
+.slider__content {
+	width: 100%;
+	padding: 5rem 0rem 0rem 0rem;
+}
+
+.rec-pagination .rec-dot_active {
+	background: $primary;
+	box-shadow: 0 0 1px 3px $primary;
+
+	&:focus {
+		box-shadow: 0 0 1px 3px $primary;
+	}
+
+	&:hover {
+		box-shadow: 0 0 1px 3px $primary;
+	}
+}

@@ -1,4 +1,5 @@
 import React from 'react'
+import { SliderCard } from '../../components/slider/SliderCard'
 import {
     benefits__titulo,
     benefits__sub_titulo,
@@ -21,7 +22,10 @@ export const BenefitsSection = () => {
                         <p className="benefits__text mt-1" data-aos="fade-up" data-aos-duration="1100" data-aos-once="true" dangerouslySetInnerHTML={{ __html: benefits__sub_titulo }}></p>
                     </article>
                 </div>
-                <div className="row mt-3">
+                <div className="d-lg-none">
+                    <SliderCard />
+                </div>
+                <div className="row mt-3 d-none">
                     <div className="col-lg-4 d-flex align-items-center justify-content-center">
                         <div className="card">
                             <div className="card-body benefits__card-body">

@@ -27,4 +27,8 @@
 
 .benefits__card-body {
 	height: 22rem;
+
+	@media (max-width: 991px) {
+		height: 25rem;
+	}
 }

@@ -21,16 +21,16 @@ export const BannerTypeTwo = () => {
                             </article>
                         </div>
                     </div>
-                    <div className="col-lg-4 col-md-6 col-12">
-                        <div className="d-flex align-items-center justify-content-center">
+                    <div className="col-lg-4 col-md-6 col-12 mt-lg-0 mt-md-4 mt-4">
+                        <div className="d-lg-flex align-items-center justify-content-center">
                             <article>
                                 <h1 className="text-white" dangerouslySetInnerHTML={{ __html: banner_type_two__titulo_2 }}></h1>
                                 <p className="text-white fw-400 mt-2" dangerouslySetInnerHTML={{ __html: banner_type_two__descripcion_2 }}></p>
                             </article>
                         </div>
                     </div>
-                    <div className="col-lg-4 col-md-6 col-12">
-                        <div className="d-flex align-items-center justify-content-center">
+                    <div className="col-lg-4 col-md-6 col-12 mt-lg-0 mt-md-4 mt-4">
+                        <div className="d-lg-flex align-items-center justify-content-center">
                             <article>
                                 <h1 className="text-white" dangerouslySetInnerHTML={{ __html: banner_type_two__titulo_3 }}></h1>
                                 <p className="text-white fw-400 mt-2" dangerouslySetInnerHTML={{ __html: banner_type_two__descripcion_3 }}></p>
