@@ -1,13 +1,16 @@
 import React from 'react'
+import {
+    team__titulo,
+    team__sub_titulo
+} from '../../constants/fileWithConstants'
 
 export const TeamSection = () => {
     return (
         <section className="team__section-content pt-75 pb-75">
             <div className="container">
                 <article>
-                    <h1 className="team__title text-center">Nuestra meta es causar un impacto positivo en la salud
-                        financiera de millones de personas.</h1>
-                    <h2 className="team__sub-title text-center">Nuestro equipo</h2>
+                    <h1 className="team__title text-center" dangerouslySetInnerHTML={{ __html: team__titulo }}></h1>
+                    <h2 className="team__sub-title text-center" dangerouslySetInnerHTML={{ __html: team__sub_titulo }}></h2>
                 </article>
                 <div className="team__photos-content">
                     <div className="row">

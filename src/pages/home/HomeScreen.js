@@ -17,7 +17,7 @@ export const HomeScreen = () => {
             <Header />
             <main>
                 <MainSection />
-                <BannerTypeOne title="Ahorra hasta 3 millones de pesos anuales en rotación" description="Disminuye el estrés financiero de tus colaboradores" />
+                <BannerTypeOne />
                 <BenefitsSection />
                 <ComoFunciona />
                 <CompanySection />

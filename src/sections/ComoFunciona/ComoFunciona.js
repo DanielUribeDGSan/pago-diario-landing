@@ -1,37 +1,31 @@
 import React from 'react'
+import {
+    como_funciona__titulo,
+    como_funciona__sub_titulo_1,
+    como_funciona__list_1,
+    como_funciona__boton_1,
+    como_funciona__sub_titulo_2,
+    como_funciona__list_2,
+    como_funciona__boton_2
+} from '../../constants/fileWithConstants'
 
 export const ComoFunciona = () => {
     return (
         <section className="como-funciona__section-content pt-75">
             <div className="container">
                 <article>
-                    <h1 className="como-funciona__title">¿Cómo funciona?</h1>
+                    <h1 className="como-funciona__title" dangerouslySetInnerHTML={{ __html: como_funciona__titulo }}></h1>
                 </article>
                 <div className="row">
                     <div className="col-lg-6 col-md-6">
                         <div className="como-funciona__content-col d-flex align-items-center justify-content-center">
                             <div>
-                                <p>Con PagoDiario, tus colaboradores podrán
-                                    tener acceso a diversas soluciones financieras</p>
+                                <p dangerouslySetInnerHTML={{ __html: como_funciona__sub_titulo_1 }}></p>
 
-                                <ul className="como-funciona__list mt-3">
-                                    <li>
-                                        Diinero disponible 24/7 de forma inmediata
-                                    </li>
-                                    <li>
-                                        Comisión única por retiro
-                                    </li>
-                                    <li>
-                                        No genera cobros hasta hacer disposición
-                                    </li>
-                                    <li>
-                                        No es préstamo, es el dinero ya trabajado
-                                    </li>
-                                    <li>
-                                        Sin cobro de intereses
-                                    </li>
+                                <ul className="como-funciona__list mt-3" dangerouslySetInnerHTML={{ __html: como_funciona__list_1 }}>
+
                                 </ul>
-                                <a class="buttons__btn buttons__btn-primary mt-3">Conoce más</a>
+                                <a class="buttons__btn buttons__btn-primary mt-3" dangerouslySetInnerHTML={{ __html: como_funciona__boton_1 }}></a>
                             </div>
                         </div>
                     </div>
@@ -50,15 +44,12 @@ export const ComoFunciona = () => {
                     <div className="col-lg-6 col-md-6">
                         <div className="como-funciona__content-col d-flex align-items-center justify-content-center">
                             <div>
-                                <p>Implementación fácil, segura y rápida</p>
+                                <p dangerouslySetInnerHTML={{ __html: como_funciona__sub_titulo_2 }}></p>
 
-                                <ul className="como-funciona__list mt-3">
-                                    <li>Firma un convenio con nuestro equipo comercial</li>
-                                    <li> Carga tu base de datos rápidamente o apóyate de nuestro equipo</li>
-                                    <li> Onboarding para tus empleados a su nueva prestación gratis</li>
-                                    <li> Ajustable a procesos y/o softwares de nómina de tu empresa</li>
+                                <ul className="como-funciona__list mt-3" dangerouslySetInnerHTML={{ __html: como_funciona__list_2 }}>
+
                                 </ul>
-                                <a class="buttons__btn buttons__btn-primary mt-3">Conoce más</a>
+                                <a class="buttons__btn buttons__btn-primary mt-3" dangerouslySetInnerHTML={{ __html: como_funciona__boton_2 }}></a>
                             </div>
                         </div>
                     </div>
