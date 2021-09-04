@@ -309,10 +309,11 @@
 .header-action-wrap .header-action-style .header__btn {
 	display: inline-flex;
 	color: $white;
+	font-size: 20px;
 }
 
 .header__input-movil[type='checkbox']:checked ~ #sidebarMenu {
-	transform: translateX(0);
+	transform: translateX(0) !important;
 }
 
 .header__input-movil[type='checkbox']:checked ~ .sidebarIconToggle {
