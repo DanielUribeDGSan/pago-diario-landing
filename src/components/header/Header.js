@@ -53,11 +53,21 @@ export const Header = () => {
                                     </label>
                                     <div id="sidebarMenu">
                                         <ul className="sidebarMenuInner">
-                                            <li><a href="">Beneficios para tu empresa</a></li>
-                                            <li><a href="">¿Cómo funciona?</a></li>
-                                            <li><a href="">Sobre nosotros</a></li>
-                                            <li><a href="">Lo quiero para mi empresa</a></li>
-                                            <li><a className="buttons__btn buttons__btn-primary header__btn">Entrar</a></li>
+                                            <li>
+                                                <AnchorLink offset='10' href='#beneficios'>Beneficios para tu empresa</AnchorLink>
+                                            </li>
+                                            <li>
+                                                <AnchorLink offset='10' href='#como-funciona'>¿Cómo funciona?</AnchorLink>
+                                            </li>
+                                            <li>
+                                                <AnchorLink offset='50' href='#sobre-nosotros'>Sobre nosotros</AnchorLink>
+                                            </li>
+                                            <li>
+                                                <AnchorLink offset='10' href='#lo-quiero-para-mi-empresa'>Lo quiero para mi empresa</AnchorLink>
+                                            </li>
+                                            <li>
+                                                <a className="buttons__btn buttons__btn-primary header__btn">Entrar</a>
+                                            </li>
                                         </ul>
                                     </div>
                                 </div>
