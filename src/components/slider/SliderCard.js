@@ -29,8 +29,6 @@ export const SliderCard = () => {
         )
     }
 
-
-
     const itemP = [20, 20, 20, 20];
 
     return (

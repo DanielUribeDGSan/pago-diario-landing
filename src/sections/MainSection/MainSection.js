@@ -49,15 +49,11 @@ export const MainSection = () => {
                         </div>
                         <div className="d-flex align-items-center">
                             <div className="d-flex justify-content-center w-100">
-                                <div>
+                                <div className="pb-5">
                                     <p className="text-white"><small>Descarga la app</small></p>
                                     <img className="mt-1 mr-2 img-fluid" src="./assets/images/store/icon-02.png" alt="google play store" />
                                     <img className="mt-1 img-fluid" src="./assets/images/store/icon-01.png" alt="apple store" />
-                                    <img
-                                        className='card-img main-section__image2'
-                                        src='./assets/images/home/puntos.svg?v=123'
-                                        alt='pagodiario'
-                                    />
+
                                 </div>
                             </div>
                         </div>

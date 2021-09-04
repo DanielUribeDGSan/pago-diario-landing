@@ -16,17 +16,17 @@ export const Header = () => {
                     <div className="row align-items-center">
                         <div className="col-lg-2 col-md-6 col-6">
                             <div className="logo">
-                                <a href="index.html"><img src="./assets/images/logo/logo-color.svg" alt="PagoDiario" /></a>
+                                <a href="/"><img src="./assets/images/logo/logo-color.svg" alt="PagoDiario" /></a>
                             </div>
                         </div>
                         <div className="col-lg-10 d-none d-lg-block d-flex justify-content-end">
                             <div className="main-menu text-center">
                                 <nav>
                                     <ul>
-                                        <li><a href="about-us.html">Beneficios para tu empresa</a></li>
-                                        <li><a href="contact-us.html">¿Cómo funciona?</a></li>
-                                        <li><a href="contact-us.html">Sobre nosotros</a></li>
-                                        <li><a href="contact-us.html">Lo quiero para mi empresa</a></li>
+                                        <li><a href="#beneficios">Beneficios para tu empresa</a></li>
+                                        <li><a href="#como-funciona">¿Cómo funciona?</a></li>
+                                        <li><a href="#sobre-nosotros">Sobre nosotros</a></li>
+                                        <li><a href="#lo-quiero-para-mi-empresa">Lo quiero para mi empresa</a></li>
                                         <li>
                                             <div>
                                                 <a className="buttons__btn buttons__btn-primary">Entrar</a>
@@ -48,12 +48,11 @@ export const Header = () => {
                                     </label>
                                     <div id="sidebarMenu">
                                         <ul className="sidebarMenuInner">
-                                            <li>Jelena Jovanovic <span>Web Developer</span></li>
-                                            <li><a href="https://vanila.io" target="_blank">Company</a></li>
-                                            <li><a href="https://instagram.com/plavookac" target="_blank">Instagram</a></li>
-                                            <li><a href="https://twitter.com/plavookac" target="_blank">Twitter</a></li>
-                                            <li><a href="https://www.youtube.com/channel/UCDfZM0IK6RBgud8HYGFXAJg" target="_blank">YouTube</a></li>
-                                            <li><a href="https://www.linkedin.com/in/plavookac/" target="_blank">Linkedin</a></li>
+                                            <li><a href="">Beneficios para tu empresa</a></li>
+                                            <li><a href="">¿Cómo funciona?</a></li>
+                                            <li><a href="">Sobre nosotros</a></li>
+                                            <li><a href="">Lo quiero para mi empresa</a></li>
+                                            <li><a class="buttons__btn buttons__btn-primary header__btn">Entrar</a></li>
                                         </ul>
                                     </div>
                                 </div>

@@ -13,6 +13,10 @@
 
 .team__photos-content {
 	margin-top: 3rem;
+
+	@media (max-width: 767px) {
+		margin-top: 0rem;
+	}
 }
 
 .team__content-img {

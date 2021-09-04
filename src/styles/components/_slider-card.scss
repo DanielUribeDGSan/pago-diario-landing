@@ -1,6 +1,10 @@
 .slider__content {
 	width: 100%;
 	padding: 5rem 0rem 0rem 0rem;
+
+	@media (max-width: 767px) {
+		padding: 2rem 0rem 0rem 0rem;
+	}
 }
 
 .rec-pagination .rec-dot_active {

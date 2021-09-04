@@ -14,7 +14,7 @@ import {
 
 export const BenefitsSection = () => {
     return (
-        <section className="benefits__section-content pt-75">
+        <section className="benefits__section-content pt-75" id="beneficios">
             <div className="container">
                 <div className="d-flex align-items-center">
                     <article>

@@ -1,4 +1,5 @@
 import React from 'react'
+import { SliderTeam } from '../../components/slider/SliderTeam'
 import {
     team__titulo,
     team__sub_titulo
@@ -13,7 +14,7 @@ export const TeamSection = () => {
                     <h2 className="team__sub-title text-center" dangerouslySetInnerHTML={{ __html: team__sub_titulo }}></h2>
                 </article>
                 <div className="team__photos-content">
-                    <div className="row">
+                    <div className="row d-none-mv">
                         <div className="col-lg-3 col-md-4 mt-4">
                             <div className="team__content-img" style={{ backgroundImage: 'url(./assets/images/team/carlosbn.png)' }}></div>
                         </div>
@@ -35,6 +36,9 @@ export const TeamSection = () => {
                         <div className="col-lg-3 col-md-4 mt-4">
                             <div className="team__content-img" style={{ backgroundImage: 'url(./assets/images/team/Perlabn.png)' }}></div>
                         </div>
+                    </div>
+                    <div className="d-lg-none d-md-none">
+                        <SliderTeam />
                     </div>
                 </div>
             </div>

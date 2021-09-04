@@ -10,7 +10,7 @@ import {
 
 export const BannerTypeTwo = () => {
     return (
-        <section className="banner-type-two__bg">
+        <section className="banner-type-two__bg" id="sobre-nosotros">
             <div className="container">
                 <div className="row">
                     <div className="col-lg-4 col-md-12 col-12">

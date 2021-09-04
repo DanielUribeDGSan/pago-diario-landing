@@ -152,6 +152,8 @@
 	display: -webkit-flex;
 	display: -ms-flexbox;
 	display: flex;
+	@media only screen and (max-width: 767px) {
+	}
 }
 
 .header-height-1 {
@@ -286,12 +288,11 @@
 }
 .sidebarMenuInner {
 	margin: 0;
-	padding: 0;
+	padding: 10% 0px 0px 0px;
 }
 .sidebarMenuInner li {
 	list-style: none;
 	color: $text-color;
-	text-transform: uppercase;
 	padding: 20px;
 	cursor: pointer;
 }
@@ -302,10 +303,14 @@
 }
 .sidebarMenuInner li a {
 	color: $text-color;
-	text-transform: uppercase;
 	cursor: pointer;
 	text-decoration: none;
 }
+.header-action-wrap .header-action-style .header__btn {
+	display: inline-flex;
+	color: $white;
+}
+
 .header__input-movil[type='checkbox']:checked ~ #sidebarMenu {
 	transform: translateX(0);
 }
