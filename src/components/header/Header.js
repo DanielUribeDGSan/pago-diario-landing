@@ -1,8 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faMapMarkerAlt, faPhoneAlt, faEnvelope } from '@fortawesome/free-solid-svg-icons'
-
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 
 // const slinky = $('#mobile-menu').slinky();
@@ -23,10 +20,18 @@ export const Header = () => {
                             <div className="main-menu text-center">
                                 <nav>
                                     <ul>
-                                        <li><a href="#beneficios">Beneficios para tu empresa</a></li>
-                                        <li><a href="#como-funciona">¿Cómo funciona?</a></li>
-                                        <li><a href="#sobre-nosotros">Sobre nosotros</a></li>
-                                        <li><a href="#lo-quiero-para-mi-empresa">Lo quiero para mi empresa</a></li>
+                                        <li>
+                                            <AnchorLink offset='10' href='#beneficios'>Beneficios para tu empresa</AnchorLink>
+                                        </li>
+                                        <li>
+                                            <AnchorLink offset='10' href='#como-funciona'>¿Cómo funciona?</AnchorLink>
+                                        </li>
+                                        <li>
+                                            <AnchorLink offset='50' href='#sobre-nosotros'>Sobre nosotros</AnchorLink>
+                                        </li>
+                                        <li>
+                                            <AnchorLink offset='10' href='#lo-quiero-para-mi-empresa'>Lo quiero para mi empresa</AnchorLink>
+                                        </li>
                                         <li>
                                             <div>
                                                 <a className="buttons__btn buttons__btn-primary">Entrar</a>
@@ -52,7 +57,7 @@ export const Header = () => {
                                             <li><a href="">¿Cómo funciona?</a></li>
                                             <li><a href="">Sobre nosotros</a></li>
                                             <li><a href="">Lo quiero para mi empresa</a></li>
-                                            <li><a class="buttons__btn buttons__btn-primary header__btn">Entrar</a></li>
+                                            <li><a className="buttons__btn buttons__btn-primary header__btn">Entrar</a></li>
                                         </ul>
                                     </div>
                                 </div>

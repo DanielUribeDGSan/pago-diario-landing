@@ -14,11 +14,11 @@ export const ComoFunciona = () => {
         <section className="como-funciona__section-content pt-75" id="como-funciona">
             <div className="container">
                 <article>
-                    <h1 className="como-funciona__title" dangerouslySetInnerHTML={{ __html: como_funciona__titulo }}></h1>
+                    <h1 className="como-funciona__title" dangerouslySetInnerHTML={{ __html: como_funciona__titulo }} data-aos="zoom-in" data-aos-duration="1800" data-aos-once="true" data-aos-delay="100"></h1>
                 </article>
                 <div className="row">
                     <div className="col-lg-6 col-md-6">
-                        <div className="como-funciona__content-col d-flex align-items-center justify-content-center">
+                        <div className="como-funciona__content-col d-flex align-items-center justify-content-center" data-aos="zoom-in-up" data-aos-duration="1800" data-aos-once="true" data-aos-delay="200">
                             <div>
                                 <p dangerouslySetInnerHTML={{ __html: como_funciona__sub_titulo_1 }}></p>
 
@@ -30,19 +30,19 @@ export const ComoFunciona = () => {
                         </div>
                     </div>
                     <div className="col-lg-6 col-md-6 mt-lg-0 mt-md-0 mt-5">
-                        <div className="como-funciona__content-col d-flex align-items-center justify-content-center">
+                        <div className="como-funciona__content-col d-flex align-items-center justify-content-center" data-aos="zoom-in-down" data-aos-duration="1800" data-aos-once="true" data-aos-delay="300">
                             <img src="./assets/images/comoFunciona/phone.svg" alt="pago diario" />
                         </div>
                     </div>
                 </div>
                 <div className="row mt-5">
                     <div className="col-lg-6 col-md-6 d-none-mv">
-                        <div className="como-funciona__content-col d-flex align-items-center justify-content-center">
+                        <div className="como-funciona__content-col d-flex align-items-center justify-content-center" data-aos="zoom-in-down" data-aos-duration="1800" data-aos-once="true" data-aos-delay="400">
                             <img src="./assets/images/comoFunciona/computadora.svg" alt="pago diario" />
                         </div>
                     </div>
                     <div className="col-lg-6 col-md-6">
-                        <div className="como-funciona__content-col d-flex align-items-center justify-content-center">
+                        <div className="como-funciona__content-col d-flex align-items-center justify-content-center" data-aos="zoom-in-up" data-aos-duration="1800" data-aos-once="true" data-aos-delay="500">
                             <div>
                                 <p dangerouslySetInnerHTML={{ __html: como_funciona__sub_titulo_2 }}></p>
 
@@ -54,7 +54,7 @@ export const ComoFunciona = () => {
                         </div>
                     </div>
                     <div className="col-lg-6 col-md-6 mt-5 d-lg-none d-md-none">
-                        <div className="como-funciona__content-col d-flex align-items-center justify-content-center">
+                        <div className="como-funciona__content-col d-flex align-items-center justify-content-center" data-aos="zoom-in-down" data-aos-duration="1800" data-aos-once="true" data-aos-delay="400">
                             <img src="./assets/images/comoFunciona/computadora.svg" alt="pago diario" />
                         </div>
                     </div>

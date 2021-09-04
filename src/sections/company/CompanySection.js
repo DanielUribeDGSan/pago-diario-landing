@@ -10,7 +10,7 @@ export const CompanySection = () => {
         <section className="company__section-content pt-75 pb-75">
             <div className="container">
                 <article>
-                    <h1 className="company__title text-center" dangerouslySetInnerHTML={{ __html: company__titulo }}></h1>
+                    <h1 className="company__title text-center" dangerouslySetInnerHTML={{ __html: company__titulo }} data-aos="zoom-in" data-aos-duration="1800" data-aos-once="true" data-aos-delay="100"></h1>
                 </article>
                 <SliderCompany />
             </div>

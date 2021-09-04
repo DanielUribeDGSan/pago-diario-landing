@@ -14,7 +14,7 @@ export const BannerTypeTwo = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-lg-4 col-md-12 col-12">
-                        <div className="d-flex align-items-center justify-content-center">
+                        <div className="d-flex align-items-center justify-content-center" data-aos="fade-up" data-aos-duration="1800" data-aos-once="true" data-aos-delay="100">
                             <article>
                                 <h1 className="text-white" dangerouslySetInnerHTML={{ __html: banner_type_two__titulo_1 }}></h1>
                                 <p className="text-white fw-200 mt-2" dangerouslySetInnerHTML={{ __html: banner_type_two__descripcion_1 }}></p>
@@ -22,7 +22,7 @@ export const BannerTypeTwo = () => {
                         </div>
                     </div>
                     <div className="col-lg-4 col-md-6 col-12 mt-lg-0 mt-md-4 mt-4">
-                        <div className="d-lg-flex align-items-center justify-content-center">
+                        <div className="d-lg-flex align-items-center justify-content-center" data-aos="fade-down" data-aos-duration="1800" data-aos-once="true" data-aos-delay="200">
                             <article>
                                 <h1 className="text-white" dangerouslySetInnerHTML={{ __html: banner_type_two__titulo_2 }}></h1>
                                 <p className="text-white fw-400 mt-2" dangerouslySetInnerHTML={{ __html: banner_type_two__descripcion_2 }}></p>
@@ -30,7 +30,7 @@ export const BannerTypeTwo = () => {
                         </div>
                     </div>
                     <div className="col-lg-4 col-md-6 col-12 mt-lg-0 mt-md-4 mt-4">
-                        <div className="d-lg-flex align-items-center justify-content-center">
+                        <div className="d-lg-flex align-items-center justify-content-center" data-aos="fade-up" data-aos-duration="1800" data-aos-once="true" data-aos-delay="200">
                             <article>
                                 <h1 className="text-white" dangerouslySetInnerHTML={{ __html: banner_type_two__titulo_3 }}></h1>
                                 <p className="text-white fw-400 mt-2" dangerouslySetInnerHTML={{ __html: banner_type_two__descripcion_3 }}></p>

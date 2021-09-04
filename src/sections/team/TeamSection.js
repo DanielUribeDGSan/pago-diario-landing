@@ -10,11 +10,11 @@ export const TeamSection = () => {
         <section className="team__section-content pt-75 pb-75">
             <div className="container">
                 <article>
-                    <h1 className="team__title text-center" dangerouslySetInnerHTML={{ __html: team__titulo }}></h1>
-                    <h2 className="team__sub-title text-center" dangerouslySetInnerHTML={{ __html: team__sub_titulo }}></h2>
+                    <h1 className="team__title text-center" dangerouslySetInnerHTML={{ __html: team__titulo }} data-aos="zoom-in" data-aos-duration="1800" data-aos-once="true" data-aos-delay="100"></h1>
+                    <h2 className="team__sub-title text-center" dangerouslySetInnerHTML={{ __html: team__sub_titulo }} data-aos="zoom-in-up" data-aos-duration="1800" data-aos-once="true" data-aos-delay="200"></h2>
                 </article>
                 <div className="team__photos-content">
-                    <div className="row d-none-mv">
+                    <div className="row d-none-mv" data-aos="zoom-in-down" data-aos-duration="1800" data-aos-once="true" data-aos-delay="300">
                         <div className="col-lg-3 col-md-4 mt-4">
                             <div className="team__content-img" style={{ backgroundImage: 'url(./assets/images/team/carlosbn.png)' }}></div>
                         </div>

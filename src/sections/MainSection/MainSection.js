@@ -12,7 +12,7 @@ export const MainSection = () => {
             <div className="row min-h100vh m-0">
                 <div className="col-lg-6 col-md-6 d-flex align-items-center justify-content-center">
                     <article>
-                        <p className="main-section__text fw-500" dangerouslySetInnerHTML={{ __html: main_section__titulo }}></p>
+                        <p className="main-section__text fw-500" dangerouslySetInnerHTML={{ __html: main_section__titulo }} ></p>
                         <h1 className="main-section__title-h1" dangerouslySetInnerHTML={{ __html: main_section__sub_titulo }}></h1>
                         <p className="main-section__text-2 fw-500 mt-1" dangerouslySetInnerHTML={{ __html: main_section__descripcion }}></p>
                         <div className="main-section__espacio-text"></div>
@@ -26,12 +26,12 @@ export const MainSection = () => {
                 <div className="col-lg-6 col-md-6 d-flex align-items-center justify-content-center p-0 main-section__bg">
                     <div className="d-none-mv">
                         <img
-                            className='card-img main-section__image'
+                            className='main-section__image'
                             src='./assets/images/home/phone.svg?v=123'
                             alt='pagodiario'
                         />
                         <img
-                            className='card-img main-section__image2'
+                            className='main-section__image2'
                             src='./assets/images/home/puntos.svg?v=123'
                             alt='pagodiario'
                         />
@@ -40,7 +40,7 @@ export const MainSection = () => {
                         <div className="d-flex align-items-center">
                             <div className="d-flex justify-content-center">
                                 <img
-                                    className='card-img main-section__image'
+                                    className='main-section__image'
                                     src='./assets/images/home/phone.svg?v=123'
                                     alt='pagodiario'
                                 />

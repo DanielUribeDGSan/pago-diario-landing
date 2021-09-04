@@ -1,5 +1,5 @@
 import React from 'react'
-// import { } from '../../constants/fileWithConstants'
+
 
 export const Footer = () => {
     return (
