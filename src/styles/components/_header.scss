@@ -84,7 +84,7 @@
 .main-menu > nav > ul > li > a {
 	color: #383838;
 	font-weight: 500;
-	line-height: 80px;
+	line-height: 30px;
 	display: inline-block;
 	position: relative;
 }
@@ -156,7 +156,10 @@
 	}
 }
 
-.header-height-1 {
+.header-height-1,
+.header-height-1 > .header-bottom,
+.header-height-1 > .header-bottom > .container-fluid,
+.header-height-1 > .header-bottom > .container-fluid > .row {
 	min-height: 80px;
 
 	@media only screen and (min-width: 768px) and (max-width: 991px) {

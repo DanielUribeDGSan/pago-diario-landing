@@ -2,9 +2,7 @@ import React from 'react'
 import {
     banner_type_two__titulo_1,
     banner_type_two__descripcion_1,
-    banner_type_two__titulo_2,
     banner_type_two__descripcion_2,
-    banner_type_two__titulo_3,
     banner_type_two__descripcion_3
 } from '../../constants/fileWithConstants'
 
@@ -12,7 +10,6 @@ import CountUp from 'react-countup';
 import VisibilitySensor from "react-visibility-sensor";
 
 export const BannerTypeTwo = () => {
-    let view = false;
     return (
         <section className="banner-type-two__bg" id="sobre-nosotros">
             <div className="container">

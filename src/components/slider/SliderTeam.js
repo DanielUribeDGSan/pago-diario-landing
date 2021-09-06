@@ -33,7 +33,7 @@ export const SliderTeam = () => {
                 <div className="team__content-img" style={{ backgroundImage: 'url(./assets/images/team/Agustinbn.png)' }}></div>
 
 
-                <div className="team__content-img" style={{ backgroundImage: 'url(./assets/images/team/Perlabn.png)' }}></div>
+                {/* <div className="team__content-img" style={{ backgroundImage: 'url(./assets/images/team/Perlabn.png)' }}></div> */}
 
             </Carousel>
         </div>

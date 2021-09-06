@@ -55,20 +55,21 @@ export const Footer = () => {
                     <div className="col-lg-3 col-md-12 d-lg-flex d-md-flex justify-content-center" data-aos="fade-down" data-aos-duration="1400" data-aos-once="true">
                         <div className="w-100 footer__pl-md footer__pt-sm">
                             <p className="footer__title text-justify fw-200">Siguenos </p>
-                            <a className="footer__link" href=""><img className="mr-3" src="./assets/images/footer/linkeding.svg" alt="linkeding" />
+                            <a className="footer__link" href="https://mx.linkedin.com/company/tupagodiario" target="_blank"><img className="mr-3" src="./assets/images/footer/linkeding.svg" alt="linkeding" />
                             </a>
-                            <a className="footer__link" href=""><img className="mr-3" src="./assets/images/footer/instagram.svg" alt="instagram" />
+                            <a className="footer__link" href="https://www.instagram.com/tupagodiario/" target="_blank"><img className="mr-3" src="./assets/images/footer/instagram.svg" alt="instagram" />
                             </a>
-                            <a className="footer__link" href=""><img className="mr-3" src="./assets/images/footer/facebook.svg" alt="facebook" />
+                            <a className="footer__link" href="https://www.facebook.com/tupagodiario" target="_blank"><img className="mr-3" src="./assets/images/footer/facebook.svg" alt="facebook" />
                             </a>
                             <div className="footer__espacio-text"></div>
                             <p className="footer__title text-justify fw-200">Descarga la app </p>
                             <div className="position-relative">
-                                <a className="footer__link-shop-1" target="_blank"></a>
-                                <a className="footer__link-shop-2" target="_blank"></a>
-                                <img className="mr-2 img-fluid" src="./assets/images/store/icon-02.png" alt="google play store" />
-                                <img className="img-fluid" src="./assets/images/store/icon-01.png" alt="apple store" />
-
+                                <a className="footer__link" href="https://play.google.com/store/apps/details?id=com.ih.pagodiario" target="_blank">
+                                    <img className="mr-2 img-fluid" src="./assets/images/store/icon-02.png" alt="google play store" />
+                                </a>
+                                <a className="footer__link" href="https://apps.apple.com/mx/app/pago-diario/id1505827398?l=en" target="_blank">
+                                    <img className="img-fluid" src="./assets/images/store/icon-01.png" alt="apple store" />
+                                </a>
                             </div>
                         </div>
                     </div>

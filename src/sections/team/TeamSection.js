@@ -33,9 +33,9 @@ export const TeamSection = () => {
                         <div className="col-lg-3 col-md-4 mt-4">
                             <div className="team__content-img" style={{ backgroundImage: 'url(./assets/images/team/Agustinbn.png)' }}></div>
                         </div>
-                        <div className="col-lg-3 col-md-4 mt-4">
+                        {/* <div className="col-lg-3 col-md-4 mt-4">
                             <div className="team__content-img" style={{ backgroundImage: 'url(./assets/images/team/Perlabn.png)' }}></div>
-                        </div>
+                        </div> */}
                     </div>
                     <div className="d-lg-none d-md-none">
                         <SliderTeam />

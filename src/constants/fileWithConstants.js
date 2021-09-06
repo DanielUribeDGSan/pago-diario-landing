@@ -59,7 +59,7 @@ export const como_funciona__list_2 = `
 export const como_funciona__boton_2 = 'Conoce más';
 
 // Company
-export const company__titulo = 'Empresas usando PagoDairio';
+export const company__titulo = 'Empresas usando PagoDiario';
 
 // BannerTypeTwo
 export const banner_type_two__titulo_1 = '¿Quiénes somos?';

@@ -34,10 +34,12 @@ export const SliderCompany = () => {
                 <div className="mr-3 d-flex align-items-center justify-content-center">
                     <img src="./assets/images/company/logo23.svg" alt="trbajando con pago diario" />
                 </div>
-                <div className="mr-3 d-flex align-items-center justify-content-center">
+                {/* <div className="mr-3 d-flex align-items-center justify-content-center">
                     <img src="./assets/images/company/logo3.svg" alt="trbajando con pago diario" />
+                </div> */}
+                <div className="mr-3 d-flex align-items-center justify-content-center">
+                    <img src="./assets/images/company/logo1.svg" alt="trbajando con pago diario" />
                 </div>
-
             </Carousel>
 
         </div>
