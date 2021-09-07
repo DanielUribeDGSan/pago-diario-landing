@@ -16,7 +16,7 @@ export const MainSection = () => {
                         <h1 className="main-section__title-h1" dangerouslySetInnerHTML={{ __html: main_section__sub_titulo }}></h1>
                         <p className="main-section__text-2 fw-500 mt-1" dangerouslySetInnerHTML={{ __html: main_section__descripcion }}></p>
                         <div className="main-section__espacio-text"></div>
-                        <a className="buttons__btn buttons__btn-primary" dangerouslySetInnerHTML={{ __html: main_section__boton }}></a>
+                        {/* <a className="buttons__btn buttons__btn-primary" dangerouslySetInnerHTML={{ __html: main_section__boton }}></a> */}
                         <div className="main-section__espacio-text"></div>
                         <p className="d-none-mv" dangerouslySetInnerHTML={{ __html: main_section__texto_sm }}></p>
                         <a href="https://play.google.com/store/apps/details?id=com.ih.pagodiario" target="_blank"><img className="mt-1 mr-2 img-fluid d-none-mv" src="./assets/images/store/icon-02.png" alt="google play store" /></a>
