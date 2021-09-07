@@ -18,8 +18,8 @@ export const BenefitsSection = () => {
             <div className="container">
                 <div className="d-flex align-items-center">
                     <article>
-                        <h1 className="benefits__title" data-aos="fade-down" data-aos-duration="1000" data-aos-once="true" dangerouslySetInnerHTML={{ __html: benefits__titulo }}></h1>
-                        <p className="benefits__text mt-1" data-aos="fade-up" data-aos-duration="1100" data-aos-once="true" dangerouslySetInnerHTML={{ __html: benefits__sub_titulo }}></p>
+                        <h1 className="benefits__title" dangerouslySetInnerHTML={{ __html: benefits__titulo }}></h1>
+                        <p className="benefits__text mt-1" dangerouslySetInnerHTML={{ __html: benefits__sub_titulo }}></p>
                     </article>
                 </div>
                 <div className="d-lg-none">

@@ -32,7 +32,7 @@ export const SliderCard = () => {
     const itemP = [20, 20, 20, 20];
 
     return (
-        <div className="slider__content" data-aos="fade-up" data-aos-duration="1400" data-aos-once="true">
+        <div className="slider__content">
             <Carousel breakPoints={breakPoints} showArrows={false} itemPadding={itemP}>
                 <div className="card">
                     <div className="card-body benefits__card-body">

@@ -1,11 +1,27 @@
 import React from 'react'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
-
+import $ from 'jquery';
 
 // const slinky = $('#mobile-menu').slinky();
 
 
 export const Header = () => {
+
+    $(document).on("scroll", function () {
+        var desplazamientoActual = $(document).scrollTop();
+        if (desplazamientoActual > 100) {
+            //controlArriba.show();
+            $("#header-pc").addClass("fade-in-h");
+            $('#header-pc').css('position', 'fixed');
+            console.log('scroll');
+        }
+        if (desplazamientoActual < 100) {
+            $("#header-pc").removeClass("fade-in-h");
+
+            $('#header-pc').css('position', 'relative');
+            console.log('no scroll');
+        }
+    });
 
     const desactivarMenuMovil = () => {
         const component = document.querySelector('#sidebarMenu');
@@ -22,7 +38,7 @@ export const Header = () => {
     };
 
     return (
-        <header className="header-area header-responsive-padding header-height-1">
+        <header className="header-area header-responsive-padding header-height-1" id="header-pc">
             <div className="header-bottom sticky-bar">
                 <div className="container-fluid">
                     <div className="row align-items-center">

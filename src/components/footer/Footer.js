@@ -25,7 +25,7 @@ export const Footer = () => {
                     <div className="col-12">
                         <hr />
                     </div>
-                    <div className="col-lg-3 col-md-4 d-lg-flex d-md-flex justify-content-center" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
+                    <div className="col-lg-3 col-md-4 d-lg-flex d-md-flex justify-content-center">
                         <div>
                             <img
                                 className='footer__logo'
@@ -36,14 +36,14 @@ export const Footer = () => {
                             <p className="footer__text text-justify fw-200 d-none">Llevamos más de media década ofreciendo servicios financieros.</p>
                         </div>
                     </div>
-                    <div className="col-lg-3 col-md-4 d-lg-flex d-md-flex justify-content-center" data-aos="fade-up" data-aos-duration="1300" data-aos-once="true">
+                    <div className="col-lg-3 col-md-4 d-lg-flex d-md-flex justify-content-center">
                         <div className="w-auto footer__pl10 footer__pl-md footer__pt-sm">
                             <a className="footer__text-link fw-200">Conoce PagoDiario</a>
                             <div className="footer__espacio-text"></div>
                             <a className="footer__text-link fw-200">Contáctanos</a>
                         </div>
                     </div>
-                    <div className="col-lg-3 col-md-4 d-lg-flex d-md-flex justify-content-center" data-aos="fade-up" data-aos-duration="1300" data-aos-once="true">
+                    <div className="col-lg-3 col-md-4 d-lg-flex d-md-flex justify-content-center">
                         <div className="w-auto footer__pt-sm">
                             <a className="footer__text-link fw-200">Ingresos</a>
                             <div className="footer__espacio-text"></div>
@@ -52,7 +52,7 @@ export const Footer = () => {
                             <a className="footer__text-link fw-200">Patrimonio</a>
                         </div>
                     </div>
-                    <div className="col-lg-3 col-md-12 d-lg-flex d-md-flex justify-content-center" data-aos="fade-down" data-aos-duration="1400" data-aos-once="true">
+                    <div className="col-lg-3 col-md-12 d-lg-flex d-md-flex justify-content-center">
                         <div className="w-100 footer__pl-md footer__pt-sm">
                             <p className="footer__title text-justify fw-200">Siguenos </p>
                             <a className="footer__link" href="https://mx.linkedin.com/company/tupagodiario" target="_blank"><img className="mr-3" src="./assets/images/footer/linkeding.svg" alt="linkeding" />
