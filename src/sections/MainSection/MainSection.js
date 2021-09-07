@@ -51,10 +51,9 @@ export const MainSection = () => {
                             <div className="d-flex justify-content-center w-100">
                                 <div className="pb-5">
                                     <p className="text-white"><small>Descarga la app</small></p>
-                                    <a href="https://play.google.com/store/apps/details?id=com.ih.pagodiario" target="_blank"><img className="mt-1 mr-2 img-fluid d-none-mv" src="./assets/images/store/icon-02.png" alt="google play store" /></a>
-                                    <a href="https://play.google.com/store/apps/details?id=com.ih.pagodiario" target="_blank"><img className="mt-1 mr-2 img-fluid d-none-mv" src="./assets/images/store/icon-02.png" alt="google play store" /></a>
-                                    <a href="https://apps.apple.com/mx/app/pago-diario/id1505827398?l=en" target="_blank"><img className="mt-1 img-fluid d-none-mv" src="./assets/images/store/icon-01.png" alt="apple store" /></a>
-                                    <img className="mt-1 img-fluid" src="./assets/images/store/icon-01.png" alt="apple store" />
+                                    <a href="https://play.google.com/store/apps/details?id=com.ih.pagodiario" target="_blank"><img className="mt-1 mr-2 img-fluid" src="./assets/images/store/icon-02.png" alt="google play store" /></a>
+                                    <a href="https://apps.apple.com/mx/app/pago-diario/id1505827398?l=en" target="_blank"><img className="mt-1 img-fluid" src="./assets/images/store/icon-01.png" alt="apple store" /></a>
+
 
                                 </div>
                             </div>
